@@ -1,8 +1,7 @@
 import "./button.css"
-import { Link } from "react-router-dom"
 
-export const Button = ({children}) => {
+export const Button = ({children, onClick}) => {
     return (
-        <button className="button">{children}</button>
+        <button className="button" onClick={onClick} >{children}</button>
     )
 }

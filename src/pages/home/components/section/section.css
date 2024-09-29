@@ -1,0 +1,27 @@
+.section {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 80px;
+}
+
+.ads {
+    display: flex;
+    animation: bannermove 10s linear infinite;
+}
+
+.copy {
+    display: inline-block;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
+
+@keyframes bannermove {
+    20% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
