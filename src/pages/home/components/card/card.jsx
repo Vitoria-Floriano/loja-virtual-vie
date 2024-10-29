@@ -5,17 +5,17 @@ import { useState } from "react"
 import styled from "styled-components"
 import "./card.css"
 
+const Title = styled.h3`
+    font-family: 'Gowun Batang', sans-serif;
+`
 export const Card = () => {
-    const [someCards, setMoreCards] = useState(5)
+    const [someCards, setMoreCards] = useState(4)
 
     const handleShowMore = () => {
-        setMoreCards(moreCards => moreCards + 5);
+        setMoreCards(moreCards => moreCards + 4);
     }
 
-    const Title = styled.h3`
-        font-family: 'Gowun Batang', sans-serif;
-    `
-
+    
     return (
         <>
             {

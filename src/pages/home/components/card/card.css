@@ -5,7 +5,7 @@
     width: 230px;
     padding: 10px;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 .card:hover{
     box-shadow: 0 0 10px #000;
@@ -24,4 +24,13 @@
     background-color: #6f001eff;
     color: #fff;
     transition: 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 200px;
+        height: 345px;
+        font-size: 12px;
+    }
+
 }
