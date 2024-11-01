@@ -4,7 +4,7 @@
     align-items: center;
     width: 230px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px 5px;
     border-radius: 8px;
 }
 .card:hover{

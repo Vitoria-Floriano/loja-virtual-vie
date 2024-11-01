@@ -6,10 +6,10 @@ import { Clothes } from "../../../../objects/clothes"
 import "./main.css"
 
 export const Main = () => {
-    const [someCards, setMoreCards] = useState(4)
+    const [someCards, setMoreCards] = useState(5)
 
     const handleShowMore = () => {
-        setMoreCards(moreCards => moreCards + 4);
+        setMoreCards(moreCards => moreCards + 5);
     }
 
     return (

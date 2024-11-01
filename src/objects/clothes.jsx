@@ -31,14 +31,14 @@ export const Clothes = [
         desconto: "55% OFF",
         link: "https://s.shopee.com.br/7fENQGeiL5"
     },
-    {
-        type: "sale",
-        img: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvqi7fb7423ibe",
-        nome: "Blusa Ribana Ombro a Ombro",
-        preco: "R$27,99",
-        desconto: "44% OFF",
-        link: "https://s.shopee.com.br/g4diTPfXW"
-    },
+    // {
+    //     type: "sale",
+    //     img: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvqi7fb7423ibe",
+    //     nome: "Blusa Ribana Ombro a Ombro",
+    //     preco: "R$27,99",
+    //     desconto: "44% OFF",
+    //     link: "https://s.shopee.com.br/g4diTPfXW"
+    // },
     {
         type: "sale",
         img: "https://down-br.img.susercontent.com/file/sg-11134301-7rcda-lt4nuc5p3z5o25",
