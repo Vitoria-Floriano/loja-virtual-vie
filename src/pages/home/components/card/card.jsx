@@ -1,21 +1,12 @@
 import { Link } from "react-router-dom"
-import { Button } from "../../../../components/button/button"
 import { Clothes } from "../../../../objects/clothes"
-import { useState } from "react"
 import styled from "styled-components"
 import "./card.css"
 
 const Title = styled.h3`
     font-family: 'Gowun Batang', sans-serif;
 `
-export const Card = () => {
-    const [someCards, setMoreCards] = useState(4)
-
-    const handleShowMore = () => {
-        setMoreCards(moreCards => moreCards + 4);
-    }
-
-    
+export const Card = ({ someCards }) => {
     return (
         <>
             {
@@ -29,9 +20,6 @@ export const Card = () => {
                     </div>
                 ))
             }
-            {someCards < Clothes.length && (
-                <Button onClick={handleShowMore} >Mostrar mais</Button>
-            )}
         </>
     )
 }
