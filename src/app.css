@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    display: flex;
+}
 body{
     font-family: "Quicksand", sans-serif;
     background-color: #e9e9e9ff;
+    min-height: 100vh;
 }
 
 a{
